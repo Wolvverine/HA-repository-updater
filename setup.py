@@ -11,7 +11,7 @@ setup(
     description=APP_DESCRIPTION.split("\n")[0],
     long_description=APP_DESCRIPTION,
     license="MIT",
-    url="https://github.com/hassio-addons/repository-updater",
+    url="https://github.com/Wolvverine/HA-repository-updater",
     keywords=[
         "addons",
         "repository",
