@@ -6,8 +6,8 @@ from repositoryupdater import APP_DESCRIPTION, APP_NAME, APP_VERSION
 setup(
     name=APP_NAME,
     version=APP_VERSION,
-    author="Franck Nijhof",
-    author_email="frenck@addons.community",
+    author="Michał Panasiewicz",
+    author_email="wolvverinepld@gmail.com",
     description=APP_DESCRIPTION.split("\n")[0],
     long_description=APP_DESCRIPTION,
     license="MIT",
@@ -18,7 +18,7 @@ setup(
         "home assistant",
         "home-assistant",
         "add-ons",
-        "frenck",
+        "wolvverinepld",
     ],
     platforms="any",
     classifiers=[
