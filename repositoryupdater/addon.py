@@ -334,7 +334,7 @@ class Addon:
                     separators=(",", ": "),
                 )
             else:
-                yaml.dump(config, outfile, default_flow_style=False)
+                yaml.dump(config, outfile, default_flow_style=False, sort_keys=False)
 
         click.echo(crayons.green("Done"))
 
@@ -354,7 +354,7 @@ class Addon:
         else:
             changelog += "- %s\n" % (self.current_commit.commit.message)
 
-        changelog = emoji.emojize(changelog, use_aliases=True)
+        changelog = emoji.emojize(changelog, language='alias')
 
         with open(
             os.path.join(
